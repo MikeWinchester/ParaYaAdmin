@@ -1,0 +1,131 @@
+body {
+    font-family: "Google Sans",arial,sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+  }
+
+  .admin-panel {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    height: 100vh;
+  }
+
+  .button-container {
+    display: flex;
+    color: black;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  }
+
+  .section {
+    flex: 1;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.7);
+    margin: 10px;
+  }
+
+  .motorists-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .companies-section {
+    background-color: #ffffff;
+  }
+
+  .button-container button {
+    flex: 1;
+    border: none;
+    background-color: #ffffff;
+    font-weight: bolder;
+    font-size: 1.5rem;
+    color: #000000;
+    padding: 30px;
+    cursor: pointer;
+    transition: all 0.1s ease-in;
+    border-radius: 20px;
+  }
+
+  .button-container button:hover{
+    background-color: rgb(223, 223, 223);
+  }
+
+
+#main-view{
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    height: 100vh;
+}
+
+#requests{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+}
+
+#orders{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+}
+
+.job-application {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.applicant-name {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.applicant-experience,
+.applicant-email {
+    margin-bottom: 10px;
+}
+
+.button-container2{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.action-button{
+    flex: 1;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.accept-button {
+    background-color: #4caf50;
+    color: #fff;
+    margin-right: 10px;
+    transition: all 0.1s ease-in;
+}
+
+.reject-button {
+    background-color: #f44336;
+    color: #fff;
+    transition: all 0.2s ease-in;
+}
+
+.accept-button:hover{
+    background-color: #317b33;
+}
+
+.reject-button:hover{
+    background-color: #922921;
+}
